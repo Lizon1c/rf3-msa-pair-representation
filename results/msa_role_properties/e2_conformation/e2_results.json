@@ -1,0 +1,494 @@
+[
+ {
+  "id": "E2-01",
+  "name": "KaiB",
+  "crystallized": "ground state (GS)",
+  "category": "fold-switcher",
+  "state_a_label": "ground state (GS)",
+  "state_b_label": "fold-switched (fs)",
+  "nomsa": {
+   "A": {
+    "nll": 3.163782835006714,
+    "mae": 2.68733488089764,
+    "entropy": 2.4199321269989014,
+    "n_pairs": 9604
+   },
+   "B": {
+    "nll": 3.6114068031311035,
+    "mae": 4.499808123609689,
+    "entropy": 2.357414960861206,
+    "n_pairs": 11236
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 7.103135108947754,
+    "mae": 4.047904766170696,
+    "entropy": 1.0176031589508057,
+    "n_pairs": 9604
+   },
+   "B": {
+    "nll": 4.934142112731934,
+    "mae": 3.2250105232009125,
+    "entropy": 0.9813331365585327,
+    "n_pairs": 11236
+   }
+  },
+  "pref_nomsa": 0.44762396812438965,
+  "pref_msa": -2.1689929962158203,
+  "shift": -2.61661696434021
+ },
+ {
+  "id": "E2-02",
+  "name": "RfaH",
+  "crystallized": "alpha-helical (autoinhibited)",
+  "category": "fold-switcher",
+  "state_a_label": "alpha-helical autoinhibited",
+  "state_b_label": "beta-barrel CTD",
+  "nomsa": {
+   "A": {
+    "nll": 2.9070887565612793,
+    "mae": 5.952464275921784,
+    "entropy": 2.7131683826446533,
+    "n_pairs": 19881
+   },
+   "B": {
+    "nll": 3.6406493186950684,
+    "mae": 5.549697296470458,
+    "entropy": 2.7879066467285156,
+    "n_pairs": 4356
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 6.821678638458252,
+    "mae": 5.029194606622154,
+    "entropy": 0.4586659371852875,
+    "n_pairs": 19881
+   },
+   "B": {
+    "nll": 6.132652759552002,
+    "mae": 2.9246494802895997,
+    "entropy": 0.870827317237854,
+    "n_pairs": 4356
+   }
+  },
+  "pref_nomsa": 0.7335605621337891,
+  "pref_msa": -0.68902587890625,
+  "shift": -1.422586441040039
+ },
+ {
+  "id": "E2-03",
+  "name": "Mad2 (MAD2A)",
+  "crystallized": "C-Mad2 (closed)",
+  "category": "fold-switcher",
+  "state_a_label": "O-Mad2 (open)",
+  "state_b_label": "C-Mad2 (closed)",
+  "nomsa": {
+   "A": {
+    "nll": 2.9256858825683594,
+    "mae": 6.307738530255199,
+    "entropy": 2.0747711658477783,
+    "n_pairs": 34969
+   },
+   "B": {
+    "nll": 2.4935128688812256,
+    "mae": 6.948849059764343,
+    "entropy": 2.0683534145355225,
+    "n_pairs": 42025
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 7.731537342071533,
+    "mae": 6.243799413201078,
+    "entropy": 0.4909760355949402,
+    "n_pairs": 34969
+   },
+   "B": {
+    "nll": 5.038498401641846,
+    "mae": 5.389091916640331,
+    "entropy": 0.47721436619758606,
+    "n_pairs": 42025
+   }
+  },
+  "pref_nomsa": -0.4321730136871338,
+  "pref_msa": -2.6930389404296875,
+  "shift": -2.2608659267425537
+ },
+ {
+  "id": "E2-04",
+  "name": "XCL1 / lymphotactin",
+  "crystallized": "chemokine fold",
+  "category": "fold-switcher",
+  "state_a_label": "chemokine fold",
+  "state_b_label": "beta-sandwich",
+  "nomsa": {
+   "A": {
+    "nll": 2.9141862392425537,
+    "mae": 11.844478614257728,
+    "entropy": 1.6079378128051758,
+    "n_pairs": 5184
+   },
+   "B": {
+    "nll": 4.120979309082031,
+    "mae": 2.822966664893727,
+    "entropy": 1.9765985012054443,
+    "n_pairs": 1521
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 5.471521377563477,
+    "mae": 10.923089021905493,
+    "entropy": 0.5489781498908997,
+    "n_pairs": 5184
+   },
+   "B": {
+    "nll": 11.489492416381836,
+    "mae": 3.8572946536136175,
+    "entropy": 0.7261070609092712,
+    "n_pairs": 1521
+   }
+  },
+  "pref_nomsa": 1.2067930698394775,
+  "pref_msa": 6.017971038818359,
+  "shift": 4.811177968978882
+ },
+ {
+  "id": "E2-05",
+  "name": "Selecase (MJ1213)",
+  "crystallized": "monomer",
+  "category": "fold-switcher (metamorphic)",
+  "state_a_label": "Slc-1 monomer",
+  "state_b_label": "oligomeric autoinhibited",
+  "nomsa": {
+   "A": {
+    "nll": 3.930408477783203,
+    "mae": 1.8556808128722893,
+    "entropy": 1.1782094240188599,
+    "n_pairs": 11881
+   },
+   "B": {
+    "nll": 4.083011627197266,
+    "mae": 1.889748332443596,
+    "entropy": 1.1807348728179932,
+    "n_pairs": 11664
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 3.892153739929199,
+    "mae": 1.8565262314171875,
+    "entropy": 1.1985399723052979,
+    "n_pairs": 11881
+   },
+   "B": {
+    "nll": 4.039097785949707,
+    "mae": 1.8888778442252077,
+    "entropy": 1.2009718418121338,
+    "n_pairs": 11664
+   }
+  },
+  "pref_nomsa": 0.1526031494140625,
+  "pref_msa": 0.1469440460205078,
+  "shift": -0.0056591033935546875
+ },
+ {
+  "id": "E2-06",
+  "name": "GA88 / GB88 (designed)",
+  "crystallized": "n/a (two distinct sequences)",
+  "category": "fold-switcher (designed)",
+  "state_a_label": "GA88 3-alpha-helix",
+  "state_b_label": "GB88 alpha/beta",
+  "nomsa": {
+   "A": {
+    "nll": 4.561169624328613,
+    "mae": 5.807469670568355,
+    "entropy": 2.658233404159546,
+    "n_pairs": 3136
+   },
+   "B": {
+    "nll": 4.666572093963623,
+    "mae": 4.418379621059291,
+    "entropy": 2.658233404159546,
+    "n_pairs": 3136
+   }
+  },
+  "msa": null,
+  "pref_nomsa": 0.10540246963500977
+ },
+ {
+  "id": "E2-07",
+  "name": "beta2-adrenergic receptor (beta2AR)",
+  "crystallized": "inactive",
+  "category": "GPCR",
+  "state_a_label": "inactive",
+  "state_b_label": "active (Gs-bound)",
+  "nomsa": {
+   "A": {
+    "nll": 2.1891186237335205,
+    "mae": 8.38122186854356,
+    "entropy": 1.3007512092590332,
+    "n_pairs": 79524
+   },
+   "B": {
+    "nll": 2.0727994441986084,
+    "mae": 9.057800272203588,
+    "entropy": 1.3125656843185425,
+    "n_pairs": 80656
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 3.0525565147399902,
+    "mae": 7.987785531823558,
+    "entropy": 0.6183566451072693,
+    "n_pairs": 79524
+   },
+   "B": {
+    "nll": 3.2526276111602783,
+    "mae": 8.85979770390008,
+    "entropy": 0.6266201138496399,
+    "n_pairs": 80656
+   }
+  },
+  "pref_nomsa": -0.11631917953491211,
+  "pref_msa": 0.20007109642028809,
+  "shift": 0.3163902759552002
+ },
+ {
+  "id": "E2-08",
+  "name": "Abl1 kinase",
+  "crystallized": "DFG-in (active)",
+  "category": "kinase (DFG-in/out)",
+  "state_a_label": "DFG-in active",
+  "state_b_label": "DFG-out inactive",
+  "nomsa": {
+   "A": {
+    "nll": 2.107649803161621,
+    "mae": 8.134620613974931,
+    "entropy": 1.9859919548034668,
+    "n_pairs": 73984
+   },
+   "B": {
+    "nll": 2.1964869499206543,
+    "mae": 7.567502353925041,
+    "entropy": 2.031552314758301,
+    "n_pairs": 69169
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 2.019083023071289,
+    "mae": 7.963474274654521,
+    "entropy": 1.9807846546173096,
+    "n_pairs": 73984
+   },
+   "B": {
+    "nll": 2.1330716609954834,
+    "mae": 7.413285879967402,
+    "entropy": 2.012836217880249,
+    "n_pairs": 69169
+   }
+  },
+  "pref_nomsa": 0.0888371467590332,
+  "pref_msa": 0.11398863792419434,
+  "shift": 0.025151491165161133
+ },
+ {
+  "id": "E2-09",
+  "name": "EGFR kinase",
+  "crystallized": "active (alphaC-in)",
+  "category": "kinase (alphaC-in/out)",
+  "state_a_label": "alphaC-in active",
+  "state_b_label": "alphaC-out inactive",
+  "nomsa": {
+   "A": {
+    "nll": 1.9865831136703491,
+    "mae": 10.680264177769159,
+    "entropy": 1.9440507888793945,
+    "n_pairs": 83521
+   },
+   "B": {
+    "nll": 2.2360165119171143,
+    "mae": 8.402952471265484,
+    "entropy": 1.9693374633789062,
+    "n_pairs": 83521
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 1.8448041677474976,
+    "mae": 10.211815778369198,
+    "entropy": 1.8206145763397217,
+    "n_pairs": 83521
+   },
+   "B": {
+    "nll": 2.399991512298584,
+    "mae": 8.372464028474237,
+    "entropy": 1.8226085901260376,
+    "n_pairs": 83521
+   }
+  },
+  "pref_nomsa": 0.24943339824676514,
+  "pref_msa": 0.5551873445510864,
+  "shift": 0.3057539463043213
+ },
+ {
+  "id": "E2-10",
+  "name": "LacY (lactose permease)",
+  "crystallized": "inward-facing",
+  "category": "transporter (MFS, inward/outward)",
+  "state_a_label": "inward-facing",
+  "state_b_label": "outward-facing",
+  "nomsa": {
+   "A": {
+    "nll": 1.5637439489364624,
+    "mae": 9.8772886791665,
+    "entropy": 1.4219908714294434,
+    "n_pairs": 173889
+   },
+   "B": {
+    "nll": 2.0144028663635254,
+    "mae": 9.283950893981283,
+    "entropy": 1.4711859226226807,
+    "n_pairs": 152881
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 1.958947777748108,
+    "mae": 8.78918362460661,
+    "entropy": 0.5211147665977478,
+    "n_pairs": 173889
+   },
+   "B": {
+    "nll": 3.353720188140869,
+    "mae": 8.783815433227673,
+    "entropy": 0.5501525402069092,
+    "n_pairs": 152881
+   }
+  },
+  "pref_nomsa": 0.450658917427063,
+  "pref_msa": 1.3947724103927612,
+  "shift": 0.9441134929656982
+ },
+ {
+  "id": "E2-11",
+  "name": "Ubiquitin",
+  "crystallized": "crystal (1UBQ)",
+  "category": "X-ray vs NMR (same construct)",
+  "state_a_label": "crystal",
+  "state_b_label": "solution NMR",
+  "nomsa": {
+   "A": {
+    "nll": 4.6564412117004395,
+    "mae": 1.3963870347977352,
+    "entropy": 1.3401702642440796,
+    "n_pairs": 5776
+   },
+   "B": {
+    "nll": 4.579939365386963,
+    "mae": 1.4656630236180197,
+    "entropy": 1.3401702642440796,
+    "n_pairs": 5776
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 5.0283942222595215,
+    "mae": 1.385817819410701,
+    "entropy": 1.2147648334503174,
+    "n_pairs": 5776
+   },
+   "B": {
+    "nll": 4.92419958114624,
+    "mae": 1.450794551551604,
+    "entropy": 1.2147648334503174,
+    "n_pairs": 5776
+   }
+  },
+  "pref_nomsa": -0.07650184631347656,
+  "pref_msa": -0.10419464111328125,
+  "shift": -0.027692794799804688
+ },
+ {
+  "id": "E2-12",
+  "name": "GB1 (protein G B1 domain)",
+  "crystallized": "crystal (1PGB)",
+  "category": "X-ray vs NMR (same construct)",
+  "state_a_label": "crystal",
+  "state_b_label": "solution NMR",
+  "nomsa": {
+   "A": {
+    "nll": 6.171295642852783,
+    "mae": 6.517621012564366,
+    "entropy": 0.7666680216789246,
+    "n_pairs": 3136
+   },
+   "B": {
+    "nll": 6.260143280029297,
+    "mae": 6.635120519087127,
+    "entropy": 0.7666680216789246,
+    "n_pairs": 3136
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 5.1796135902404785,
+    "mae": 5.940329116485027,
+    "entropy": 1.3255681991577148,
+    "n_pairs": 3136
+   },
+   "B": {
+    "nll": 5.260837078094482,
+    "mae": 6.041307934820563,
+    "entropy": 1.3255681991577148,
+    "n_pairs": 3136
+   }
+  },
+  "pref_nomsa": 0.08884763717651367,
+  "pref_msa": 0.0812234878540039,
+  "shift": -0.007624149322509766
+ },
+ {
+  "id": "E2-13",
+  "name": "Thioredoxin (TrxA)",
+  "crystallized": "crystal (2TRX)",
+  "category": "X-ray vs NMR (same construct)",
+  "state_a_label": "crystal (oxidized)",
+  "state_b_label": "solution NMR (oxidized)",
+  "nomsa": {
+   "A": {
+    "nll": 3.8180458545684814,
+    "mae": 1.4762643740619463,
+    "entropy": 1.299221158027649,
+    "n_pairs": 11664
+   },
+   "B": {
+    "nll": 4.075360298156738,
+    "mae": 1.49969080089944,
+    "entropy": 1.299221158027649,
+    "n_pairs": 11664
+   }
+  },
+  "msa": {
+   "A": {
+    "nll": 4.602191925048828,
+    "mae": 1.4665232491336664,
+    "entropy": 0.9863519668579102,
+    "n_pairs": 11664
+   },
+   "B": {
+    "nll": 4.986081123352051,
+    "mae": 1.5002553748923528,
+    "entropy": 0.9863519668579102,
+    "n_pairs": 11664
+   }
+  },
+  "pref_nomsa": 0.25731444358825684,
+  "pref_msa": 0.38388919830322266,
+  "shift": 0.12657475471496582
+ }
+]
